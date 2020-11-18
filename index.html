@@ -12,15 +12,23 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- Navbar -->
-        <nav class="navbar navbar-light fixed-top bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="/imagenes/carnivorous-plant.png" width="100" height="100" class="d-inline-block align-center"
-                    alt="logo" loading="lazy" />
-                Carnivorous Plants
-            </a>
-            <ul class="nav justify-content-end">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand letra" href="#">
+            <div class="d-none d-sm-none d-md-block">
+                <img src="/imagenes/carnivorous-plant.png" width="100" height="100"
+                    class="d-inline-block align-center d-md-none d-lg-block" alt="logo" loading="lazy" />
+            </div>
+            Carnivorous Plants
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link " href="#quienessomos">Quienes Somos</a>
                 </li>
@@ -33,9 +41,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
-
             </ul>
-        </nav>
+        </div>
+    </nav>
+
+    <div class="container">
+
 
         <hr class="my-4">
         <hr class="my-4">
@@ -44,13 +55,13 @@
 
         <div class="card mb-3">
             <img src="https://okdiario.com/img/2017/04/11/las-plantas-carnivoras-mas-hermosas-655x368.jpg" width="100%"
-                height="300px" class="card-img-top" alt="...">
+                height="100%" class="card-img-top" alt="...">
         </div>
         <div class="card">
 
             <a name="quienessomos"></a>
             <!-- Quienes somos -->
-            
+
 
             <div class="jumbotron">
 
@@ -64,9 +75,9 @@
             <a name="productos"></a>
             <!-- Productos -->
             <h2>Productos</h2>
-            
 
-            
+
+
 
             <div class="container-productos row row-cols-1 row-cols-md-3">
 
@@ -141,7 +152,7 @@
             <hr class="my-4">
             <a name='ubicacion'></a>
             <!-- Ubicación -->
-            
+
             <div class="container">
 
                 <div class="row">
@@ -151,7 +162,7 @@
                     <div class="col-md-8">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26699.706259216302!2d-60.32453797744427!3d-33.22816435876213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76f3625f82091%3A0x40b15ae0f2e0fe66!2sTheobald%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1605657352923!5m2!1ses!2sar"
-                            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                            width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
@@ -162,7 +173,7 @@
             <a name='contacto'></a>
             <!-- Contacto -->
 
-            
+
             <div class="contact-form">
 
                 <div class="container">
