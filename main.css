@@ -1,11 +1,13 @@
-.container{
-    width: 80%;
-    
+.container {
+  width: 80%;
 }
-.productos img{
-    height: 260px;
-    
+.productos img {
+  height: 260px;
 }
-.container-productos{
-    margin-top: 20px;
+.container-productos {
+  margin-top: 20px;
+}
+
+.ancla {
+  margin-bottom: 150px;
 }
